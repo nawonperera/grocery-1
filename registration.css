@@ -1,0 +1,236 @@
+:root{
+    --green: green;
+    --black: #130f40;
+    --red: #b70808e5;
+    --light-color: #666;
+    --box-shadow: 0.5rem 1rem rgba(0,0,0,1);
+    --border: 2rem solid rgba(0,0,0,1);
+    --outline: .1rem solid rgba(0,0,0,1);
+}
+/* Registration Form Styles */
+#registration-form {
+    max-width: 500px;
+    margin: 40px auto;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  
+  .form-group {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .registration-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* updated to remove default margins */
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+    width: 30rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .registration-form-container h1 {
+    font-size: 2rem;
+    margin-bottom: 0; /* updated to remove margin at the bottom */
+    color: var(--black);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .loyalty-scheme-benefits {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .loyalty-scheme-benefits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .loyalty-scheme-benefits li {
+    margin-bottom: 10px;
+  }
+  
+  .loyalty-scheme-benefits strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('./img/Untitled\ design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #333;
+    color: #fff;
+  }
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  .registration-form-container {
+    margin: 40px auto;
+  }
+
+  *{
+    font-family: Poppins , sans-serief;
+  }
+
+  footer {
+    background-color: rgb(215, 242, 210);
+    padding: 20px;
+    color: #000; /* black color for text */
+    margin-top: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .useful-links, .newsletter, .contact {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .useful-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .useful-links li {
+    margin-bottom: 10px;
+  }
+  
+  .useful-links a {
+    color: #000; /* black color for links */
+    text-decoration: none;
+  }
+  
+  .useful-links a:hover {
+    color: #4CAF50;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newsletter button {
+    background-color: var(--green);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: var(--green);
+  }
+  
+  .contact p {
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 50px;
+  }

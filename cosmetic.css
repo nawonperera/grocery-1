@@ -1,0 +1,274 @@
+:root{
+    --green: green;
+    --black: #130f40;
+    --red: #b70808e5;
+    --light-color: #666;
+    --box-shadow: 0.5rem 1rem rgba(0,0,0,1);
+    --border: 2rem solid rgba(0,0,0,1);
+    --outline: .1rem solid rgba(0,0,0,1);
+}
+#header{
+    background-color: rgb(215, 242, 210);
+    width:100%;
+    height: 120px;
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-style:normal
+}
+
+#logo{
+    float:left;
+    width: 130px;
+    height: 130px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#logo-img{
+    max-width: 100%;
+    max-height:100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+
+}
+
+.navigation{
+    padding: 20px 0;
+    display: flex;
+    justify-content:left;
+    margin-left: -10px;
+    
+
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    padding: 0 100px;
+    margin-left: -30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+     
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+.active{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    text-align: center;
+    text-align: center;
+
+}
+
+.menu-item{
+    padding-right: 10px;
+    color:black;
+    
+
+}
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-bottom: 20px;
+    display: inline-block; /* Allow the heading to be adjusted with margins */
+    transform: translateX(55%); /* Adjust this value to move the heading slightly to the left */
+}
+
+main {
+    padding: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+thead {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 0.75em;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    margin-left: 40px;
+}
+
+button {
+    padding: 0.5em 1em;
+    margin-right: 0.5em;
+    border: none;
+    background-color: #28a745;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #28a745;
+}
+
+.quick-shop {
+    background-color: #28a745;
+}
+
+.quick-shop:hover {
+    background-color: #218838;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 1em;
+    }
+
+    td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 0.75em;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    td[data-label="Actions"] {
+        text-align: center;
+    }
+
+    img {
+        max-width: 80px;
+    }
+}
+/* Footer */ 
+*{
+    font-family: Poppins , sans-serief;
+  }
+
+  footer {
+    background-color: rgb(215, 242, 210);
+    padding: 20px;
+    color: #000; /* black color for text */
+    margin-top: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .useful-links, .newsletter, .contact {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .useful-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .useful-links li {
+    margin-bottom: 10px;
+  }
+  
+  .useful-links a {
+    color: #000; /* black color for links */
+    text-decoration: none;
+  }
+  
+  .useful-links a:hover {
+    color: #4CAF50;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newsletter button {
+    background-color: var(--green);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .newsletter button:hover {
+    background-color: var(--green);
+  }
+  
+  .contact p {
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 50px;
+  }

@@ -1,0 +1,236 @@
+:root{
+    --green: green;
+    --black: #130f40;
+    --red: #b70808e5;
+    --light-color: #666;
+    --box-shadow: 0.5rem 1rem rgba(0,0,0,1);
+    --border: 2rem solid rgba(0,0,0,1);
+    --outline: .1rem solid rgba(0,0,0,1);
+}
+#header{
+    background-color: rgb(215, 242, 210);
+    width:100%;
+    height: 120px;
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-style:normal
+}
+
+#logo{
+    float:left;
+    width: 130px;
+    height: 130px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#logo-img{
+    max-width: 100%;
+    max-height:100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+
+}
+
+.navigation{
+    padding: 20px 0;
+    display: flex;
+    justify-content:left;
+    margin-left: -10px;
+    
+
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    padding: 0 100px;
+    margin-left: -30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+     
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+.active{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    text-align: center;
+    text-align: center;
+
+}
+
+.menu-item{
+    padding-right: 10px;
+    color:black;
+    
+
+}
+/* Styles specific to the gift card page */
+.gift-card-page {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8; /* Change the background color as needed */
+    padding: 20px;
+  }
+  
+  .gift-card-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffffec; /* Change the background color as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure border-radius is applied correctly */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-top: 150px;
+    height: 400px;
+  }
+  
+  .gift-card-image img {
+    max-width: 2000px; /* Adjust the value to your preferred size */
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  .gift-card-details {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: -100px;
+  }
+  
+  .gift-card-details h2{
+    color: var(--black)
+  }
+  .price {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .description {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .quantity-container {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 10px;
+  }
+  
+  .add-to-cart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--green);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: var(--green);
+  }
+  .quantity-container label {
+    color: #333; /* Replace with your desired color */
+  }
+  /* Footer */ 
+  *{
+    font-family: Poppins , sans-serief;
+  }
+
+  footer {
+    background-color: rgb(215, 242, 210);
+    padding: 20px;
+    color: #000; /* black color for text */
+    margin-top: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .useful-links, .newsletter, .contact {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .useful-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .useful-links li {
+    margin-bottom: 10px;
+  }
+  
+  .useful-links a {
+    color: #000; /* black color for links */
+    text-decoration: none;
+  }
+  
+  .useful-links a:hover {
+    color: #4CAF50;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newsletter button {
+    background-color: var(--green);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .newsletter button:hover {
+    background-color: var(--green);
+  }
+  
+  .contact p {
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 50px;
+  }

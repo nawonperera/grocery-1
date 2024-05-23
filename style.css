@@ -1,0 +1,518 @@
+:root{
+    --green: green;
+    --black: #130f40;
+    --red: #b70808e5;
+    --light-color: #666;
+    --box-shadow: 0.5rem 1rem rgba(0,0,0,1);
+    --border: 2rem solid rgba(0,0,0,1);
+    --outline: .1rem solid rgba(0,0,0,1);
+}
+#header{
+    background-color: rgb(215, 242, 210);
+    width:100%;
+    height: 120px;
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-style:normal
+}
+
+#logo{
+    float:left;
+    width: 130px;
+    height: 130px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#logo-img{
+    max-width: 100%;
+    max-height:100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+
+}
+
+.navigation{
+    padding: 20px 0;
+    display: flex;
+    justify-content:left;
+    margin-left: -15px;
+    
+
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    padding: 0 100px;
+    margin-left: -30px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+     
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+     
+
+
+.active{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+
+}
+
+.menu-item{
+    padding-right: 10px;
+    color:black;
+    
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4; /* Background color for demonstration */
+    font-family: 'Poppins', sans-serif;
+    font-style:normal
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+  
+  .search-bar {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 0px; /* Adjust margin as needed */
+    margin-left: 30px;
+    
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green color for demonstration */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+
+  }
+
+  .icons {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+
+.icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.icons .cart {
+    background-color: #fff0ee;
+    color: #2e2a2a;
+}
+
+.icons .user {
+    background-color: #fff0ee;
+    color: #2e2a2a;
+}
+
+.icons a span {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-weight: 500;
+    background-color: #202020;
+}
+
+.icons .user span {
+    background-color: #1b1b1b;
+}
+
+.icons .cart span {
+    background-color: #1b1b1b;
+}
+
+/*==Sreach banner==*/
+#search-banner{
+    max-width: 1250px;
+    height: 500px;
+    border-radius:30px;
+    background-color:#99c6a1;
+    margin:10px auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url(./img/Untitled\ design\ \(2\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: bottom right;
+    padding: 20px;
+    display: flex;
+    align-items:center;
+}
+
+
+
+.bg-1{
+    position: absolute;
+    left: -10px;
+    top: -150px;
+    width: 550px;
+    height: 550px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.bg-2{
+    position: absolute;
+    left: 60%;
+    transform: translateX(-60%);
+    top: -75px;
+    width: 150px;
+    height: 150px;
+    object-position: center;
+    object-fit: contain;
+}
+
+.search-banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    width: 1000px;
+    margin-left: auto;  
+    margin-right: auto;  
+    margin-bottom: 200px;
+    margin-top: 100px;
+    position: relative;
+}
+.search-banner-text h1{
+    font-size: 3rem;
+    line-height: 55px;
+    color: #202020;
+    
+
+}
+
+
+.search-banner-text strong{
+    color:#202020;
+    font-size: 1.4rem;
+    margin-top: 4px;
+}
+
+.shop-now-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:#f3540a; /*button color*/
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shop-now-button:hover {
+    background-color: #f3540a;  /*button color*/
+}
+
+.btn{
+    border: .2rem solid var(--black);
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1,7rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: var(--green);
+    color:#fff;
+}
+
+/*categories*/
+.categories .box-container {
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+}
+
+.categories .box-container .box {
+    padding: 1rem 0.5rem; /* Adjust padding to minimize box size */
+    background: #fff;
+    border-radius: 0.5rem; /* Adjust border radius for smaller box */
+    outline: var(--outline);
+    outline-offset: -0.5rem; /* Adjust outline offset accordingly */
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.categories .box-container .box:hover {
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+
+.categories .box-container .box img {
+    margin: 1rem auto; /* Adjust margin to center the image */
+    height: 12rem; /* Adjust image height as needed */
+}
+
+ 
+
+.categories .box-container .box h3 {
+    font-size: 1rem;
+    color: var(--black);
+    line-height: 1.8;
+}
+
+.categories .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--black);
+    margin-top: 3rem;
+}
+
+.categories .heading span {
+    color: var(--green);
+}
+
+.categories .box-container .box p {
+    font-size: 1rem; /* Adjust font size as needed */
+    color: var(--black); /* Adjust color if needed */
+    margin-top: 0.5rem; /* Adjust top margin for spacing */
+}
+.categories .box-container .box p {
+    font-size: 1.2rem; /* Increase font size to medium */
+    color: var(--red); /* Highlight savings with green color */
+    font-weight: bold; /* Make savings text bold for emphasis */
+    margin-top: 0.5rem; /* Adjust top margin for spacing */
+}
+
+#additional-categories .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+#additional-categories .box-container .box {
+    padding: 1rem 0.5rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    outline: var(--outline);
+    outline-offset: -0.5rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#additional-categories .box-container .box:hover {
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+
+#additional-categories .box-container .box img {
+    margin: 1rem auto;
+    height: 15rem;
+}
+
+#additional-categories .box-container .box h3 {
+    font-size: 1rem;
+    color: var(--black);
+    line-height: 1.8;
+}
+
+#additional-categories .heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--black);
+    margin-top: 3rem;
+}
+
+#additional-categories .heading span {
+    color: var(--green);
+}
+
+/*Footer*/
+*{
+    font-family: Poppins , sans-serief;
+  }
+
+  footer {
+    background-color: rgb(215, 242, 210);
+    padding: 20px;
+    color: #000; /* black color for text */
+    margin-top: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .useful-links, .newsletter, .contact {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .useful-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .useful-links li {
+    margin-bottom: 10px;
+  }
+  
+  .useful-links a {
+    color: #000; /* black color for links */
+    text-decoration: none;
+  }
+  
+  .useful-links a:hover {
+    color: #4CAF50;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newsletter button {
+    background-color: var(--green);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .newsletter button:hover {
+    background-color: var(--green);
+  }
+  
+  .contact p {
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #introduction {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4; /* Background color for demonstration */
+    font-family: 'Poppins', sans-serif;
+    color: #000; /* Black text color */
+}
+
+#introduction h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#introduction p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Flexbox container for the two columns */
+#introduction .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between columns */
+    text-align: left;
+}
+
+/* Individual column styling */
+#introduction .flex-item {
+    flex: 1;
+    min-width: 280px; /* Minimum width for responsive design */
+    max-width: 600px; /* Maximum width for better readability */
+    margin: 0 10px; /* Margin between columns */
+}
+
+#introduction h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#introduction ul,
+#introduction ol {
+    margin: 0 0 30px 20px;
+    padding: 0;
+    list-style-position: inside;
+}
+
+#introduction ul li,
+#introduction ol li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#introduction ul {
+    list-style-type: disc;
+}
+
+#introduction ol {
+    list-style-type: decimal;
+}
